@@ -1,7 +1,7 @@
 //--- NAV ---\\
 
 const toggleBtn = document.getElementById('toggle-btn')
-const show_menu = document.getElementById('show_menu')
+const ul = document.querySelector('ul')
 const menu = ` <img width="20" height="20" src="https://img.icons8.com/ios-filled/50/menu--v1.png" alt="menu--v1"/>
 
 
@@ -16,13 +16,12 @@ toggleBtn.addEventListener('click', () => {
      if (isDarkModeEnable()) {
 
           toggleBtn.innerHTML = close_img
-          show_menu.style.display ='block'
-          show_menu.style.left = '-1px'
+          ul.classList.add('top-[80px]')
+          ul.classList.add('opacity-100')
 
      }else{
           toggleBtn.innerHTML = menu
-          show_menu.classList.display = 'none'
-          show_menu.style.left = '350px'
+          ul.classList.remove('opacity-100')
      }
 })
 

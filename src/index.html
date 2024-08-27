@@ -5,9 +5,9 @@
      <meta name="viewport" content="width=device-width, initial-scale=2.0, maximum-scale=1.0, user-scalable=no, viewport-fit=contain">
      <title></title>
      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-     <link rel="stylesheet" href="./src/output.css">
-     <link rel="stylesheet" href="./src/input.css">
-     <link rel="stylesheet" href="./src/style.css">
+     <link rel="stylesheet" href="./output.css">
+     <link rel="stylesheet" href="./input.css">
+     <link rel="stylesheet" href="./style.css">
      <link
      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
      rel="stylesheet"
@@ -16,7 +16,7 @@
      <style>
         @font-face {
              font-family: 'myFirstFont';
-             src: url(./font/Vazir-Medium.ttf);
+             src: url(../font/Vazir-Medium.ttf);
         }
      </style>
 
@@ -71,11 +71,11 @@
 
     <!-- swiper -->
 
-    <section class="md:max-w-[1250px] w-full  m-auto flex items-center overflow-x-hidden">
+    <section class="md:max-w-[1250px] w-full  m-auto flex items-center overflow-x-hidden cursor-pointer">
 
-         <div class="w-full grid grid-cols-12 justify-center gap-5 p-3">
+         <div class="w-full grid grid-cols-12 justify-center gap-5 p-3 cursor-pointer">
 
-              <div class="lg:col-span-8 col-span-12 rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-2xl">
+              <div class="lg:col-span-8 col-span-12 rounded-2xl overflow-hidden border-blue-100 border-4 shadow-xl">
 
                    <div class="swiper mySwiper w-full h-full object-cover bg-cover">
                         <div class="swiper-wrapper">
@@ -91,7 +91,7 @@
 
               </div>
 
-              <div class="lg:col-span-4 col-span-6  rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-2xl">
+              <div class="lg:col-span-4 col-span-6  rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-xl">
 
                    <div class="swiper mySwiper w-full h-full object-cover bg-cover">
                         <div class="swiper-wrapper">
@@ -107,7 +107,7 @@
 
               </div>
 
-              <div class="lg:col-span-4 col-span-6  rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-2xl">
+              <div class="lg:col-span-4 col-span-6  rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-xl">
 
                    <div class="swiper mySwiper w-full h-full object-cover bg-cover">
                         <div class="swiper-wrapper">
@@ -129,7 +129,7 @@
 
               </div>
 
-              <div class="lg:col-span-8 col-span-12 rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-2xl">
+              <div class="lg:col-span-8 col-span-12 rounded-2xl overflow-hidden border-blue-100 border-4 drop-shadow-xl">
                    
                    <div class="swiper mySwiper w-full h-full object-cover bg-cover">
                         <div class="swiper-wrapper">
@@ -151,10 +151,46 @@
          </div>
     </section>
 
+    <!-- Category -->
 
+    <section class="w-full md:max-w-[1250px] h-auto md:h-[40vh] p-6 mt-4 m-auto ">
+     <div class="flex flex-wrap md:flex-nowrap gap-x-6">
+          <div class="w-[550px]">
+               <a href="#">
+                    <img class="w-[95%] m-auto rounded-xl hover:shadow-2xl hover:duration-200 hover:w-[100%]" src="./../img/t-shirt.png" alt="">
+               </a>
+          </div>
+          <div class="">
+               <a href="#">
+                    <img class="w-[95%] m-auto rounded-xl hover:shadow-2xl hover:duration-200 hover:w-[100%]" src="./../img/pants.png" alt="">
+               </a>
+          </div>
+          <div class="">
+               <a href="#">
+                    <img class="w-[550px] m-auto rounded-xl hover:shadow-2xl hover:duration-200 hover:w-[580px]" src="./../img/watch.jpg" alt="">
+               </a>
+          </div>
+          <div class="">
+               <a href="#">
+                    <img class="w-[550px] m-auto rounded-xl hover:shadow-2xl hover:duration-200 hover:w-[580px]" src="./../img/sofa.jpg" alt="">
+               </a>
+          </div>
+          <div class="">
+               <a href="#">
+                    <img class="w-[95%] m-auto rounded-xl hover:shadow-2xl hover:duration-200 hover:w-[100%]" src="./../img/atr.jpg" alt="">
+               </a>
+          </div>
+          <div class="">
+               <a href="#">
+                    <img class="w-[95%] m-auto rounded-xl hover:shadow-2xl hover:duration-200 hover:w-[100%]" src="./../img/gift.jpg" alt="">
+               </a>        
+          </div>
+     </div>
+
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="./src/script.js"></script>
+    <script src="./script.js"></script>
     
 </body>
 </html>

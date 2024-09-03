@@ -48,8 +48,8 @@ var swiper = new Swiper(".mySwiper", {
 });
 
 var swiper = new Swiper(".ndSwiper", {
-     slidesPerView: 1,
-     spaceBetween: 40,
+     slidesPerView: 2,
+     spaceBetween: 30,
      loop: true,
      autoplay: {
           delay: 3000,

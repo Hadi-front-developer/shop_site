@@ -59,5 +59,8 @@ var swiper = new Swiper(".ndSwiper", {
           '620' : {
                slidesPerView: 3,
           },
+          '820' : {
+               slidesPerView: 4,
+          },
      },
 });

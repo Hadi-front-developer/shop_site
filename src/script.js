@@ -51,6 +51,7 @@ var swiper = new Swiper(".ndSwiper", {
      slidesPerView: 2,
      spaceBetween: 30,
      loop: true,
+     // centeredSlides: true,
      autoplay: {
           delay: 3000,
           disableOnInteraction: false,

@@ -612,6 +612,10 @@ video {
   margin-bottom: 2.5rem;
 }
 
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .ml-4 {
   margin-left: 1rem;
 }
@@ -672,8 +676,10 @@ video {
   height: 100px;
 }
 
+
 .h-\[430px\] {
   height: 430px;
+
 }
 
 .h-\[60px\] {
@@ -1058,6 +1064,7 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
+
 .after\:absolute::after {
   content: var(--tw-content);
   position: absolute;
@@ -1098,6 +1105,7 @@ video {
   content: var(--tw-content);
   opacity: 90%;
 }
+
 
 .after\:duration-500::after {
   content: var(--tw-content);
@@ -1195,6 +1203,10 @@ video {
 
   .md\:h-\[620px\] {
     height: 620px;
+  }
+
+  .md\:h-\[760px\] {
+    height: 760px;
   }
 
   .md\:h-\[80px\] {

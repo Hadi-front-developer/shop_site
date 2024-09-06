@@ -35,11 +35,10 @@ function isDarkModeEnable(params) {
 
 var swiper = new Swiper(".mySwiper", {
     spaceBetween: 30,
-    effect: "fade",
     loop: true,
     centeredSlides: true,
     autoplay: {
-        delay: 3000,
+        delay: 5000,
         disableOnInteraction: false,
     },
     pagination: {
@@ -47,4 +46,43 @@ var swiper = new Swiper(".mySwiper", {
         clickable: true,
     }
 });
+
+var swiper = new Swiper(".ndSwiper", {
+     slidesPerView: 2,
+     spaceBetween: 30,
+     loop: true,
+     // centeredSlides: true,
+     autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+     },
+     breakpoints: {
+          '620' : {
+               slidesPerView: 3,
+          },
+          '820' : {
+               slidesPerView: 4,
+          },
+     },
+});
+
+// clock if wonder
+
+setInterval(() => {
+
+     let date = new Date();
+     let h = date.getHours();
+     let m = date.getMinutes();
+     let s = date.getSeconds();s
+     h = h < 10 ? '0' + h : h;
+     m = m < 10 ? '0' + m : m;
+     s = s < 10 ? '0' + s : s;
+
+     document.getElementById('hor').innerHTML = h;
+     document.getElementById('min').innerHTML = m;
+     document.getElementById('sec').innerHTML = s;
+
+}, 1000);
+
+
 

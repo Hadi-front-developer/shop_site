@@ -16,7 +16,7 @@ toggleBtn.addEventListener('click', () => {
      if (isDarkModeEnable()) {
 
           toggleBtn.innerHTML = close_img
-          ul.classList.add('top-[110px]')
+          ul.classList.add('top-[50px]')
           ul.classList.add('opacity-100')
 
      }else{
